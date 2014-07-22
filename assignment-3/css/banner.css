@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.wrapper{
+    
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+#banner_head{
+    height: 175px;
+    background-color: #499bd7;
+    text-align: center;
+    vertical-align: central;
+    line-height: 175px;
+    
+    
+}
+h1{
+    font-family: Arial;
+    font-size: 30pt;
+    color: white;
+    font-weight: normal;
+}
+
+body{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#nav{
+    height:60px;
+    background-color: #d6d6d6;
+    font-family: Arial;
+    vertical-align: central;
+    line-height: 60px;
+    
+    
+}
+
+ul#sub_nav{
+    margin: 0px;
+    padding: 0px;
+}
+ul#sub_nav li{
+    display: inline;
+}
+
+ul#sub_nav a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.block_1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#image_cont{
+    float: left;
+    margin-right: 12px;
+}
+
+.footer{
+    background-color: #eeeeee;
+    height: 65px;
+    padding: 0px;
+    vertical-align: central;
+    line-height: 65px;
+    
+}
+
+.footer_nav1{
+    float:left;
+}
+
+ul#footer_nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#footer_nav li{
+    display: inline;
+}
+
+ul#footer_nav a{
+    
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.copy_right{
+    float:right;
+    font-size: 12px;
+    vertical-align: central;
+    line-height: 65px;
+}
