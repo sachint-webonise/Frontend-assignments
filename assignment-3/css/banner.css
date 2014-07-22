@@ -1,8 +1,58 @@
-*{
-    margin:0;
-    padding:0;
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+    line-height: 1;
     
 }
+    
+ol, ul {
+    list-style: none;
+    
+}
+    
+blockquote, q {
+    quotes: none;
+    
+}
+    
+blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    
+}
+    
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
 .wrapper{
     
     width: 940px;
@@ -10,20 +60,11 @@
     
 }
 
-#banner_head{
+#bannerHead{
     height: 175px;
     background-color: #499bd7;
     text-align: center;
-    vertical-align: central;
-    line-height: 175px;
-    
-    
-}
-h1{
-    font-family: Arial;
-    font-size: 30pt;
-    color: white;
-    font-weight: normal;
+   
 }
 
 body{
@@ -32,36 +73,40 @@ body{
     line-height: 18px;
 }
 
-#nav{
-    height:60px;
-    background-color: #d6d6d6;
-    font-family: Arial;
-    vertical-align: central;
-    line-height: 60px;
-    
-    
+h1{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    padding: 72px 0px;
 }
 
-ul#sub_nav{
-    margin: 0px;
-    padding: 0px;
+
+
+#menu{
+    height:60px;
+    background-color: #d6d6d6;
 }
-ul#sub_nav li{
+
+ul#menuNavigator{
+    padding: 22px 0px;
+}
+ul#menuNavigator li{
     display: inline;
 }
 
-ul#sub_nav a{
+ul#menuNavigator a{
     font-size: 12px;
     text-decoration: none;
     color: black;
+   
 }
 
-.block_1{
+.content{
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#image_cont{
+#logo{
     float: left;
     margin-right: 12px;
 }
@@ -69,35 +114,29 @@ ul#sub_nav a{
 .footer{
     background-color: #eeeeee;
     height: 65px;
-    padding: 0px;
-    vertical-align: central;
-    line-height: 65px;
-    
 }
 
-.footer_nav1{
+.footerBar{
     float:left;
 }
 
-ul#footer_nav{
-    margin: 0px;
-    padding: 0px;
+ul#footerNavigator{
+    padding: 21px 0px;
 }
 
-ul#footer_nav li{
+ul#footerNavigator li{
     display: inline;
 }
 
-ul#footer_nav a{
+ul#footerNavigator a{
     
     font-size: 12px;
     text-decoration: none;
     color: black;
 }
 
-.copy_right{
+.copyright{
     float:right;
     font-size: 12px;
-    vertical-align: central;
-    line-height: 65px;
+    padding: 21px 0px;
 }
