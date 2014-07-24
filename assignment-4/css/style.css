@@ -53,7 +53,27 @@ table {
     
 }
 
-.wrapper{
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+body
+{
+	font-family: 'Source Sans Pro','Arial','Helvetica', 'sans-serif';
+	font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
     
     width: 940px;
     margin: 0 auto;
@@ -76,23 +96,33 @@ table {
     margin: 10px 55px 10px 0px;
 }
 
-ul .menulist{
+.menuList{
     float: left;
     
 }
 
- .menulist a{
-    
+.menuList li{
     float: left;
+}
+
+ .menuList li a{
+    
+
     display: block;
-    text-decoration: none;
-    color: white;
+    color: #aaaaaa;
+    font-size: 18px;
+    font-weight: bold;
     padding: 19px 26px 19px 26px;
     border-right: 1px solid #333333;
 }
 
 .leftborder{
     border-left: 1px solid #333333;
+}
+
+.menuList .listClear{
+    float: none;
+    clear: both;
 }
 
 .mainBanner{
@@ -106,20 +136,21 @@ ul .menulist{
     float:left;
 }
 
+.marginContain{
+    margin-left: 15px;
+}
+
 h1{
     font-size: 48px;
-    font-family: Arial;
+    font-weight: bold;
     color: white;
     margin-top:186px;
-    margin-left:15px;
 }
 
 h2{
-    font-size: 34px;
-    font-family: Arial;
-    font-weight:lighter;
+    font-size: 36px;
+    font-weight: 100;
     color: white;
-    margin-left: 15px;
 
 }
 
@@ -129,7 +160,6 @@ h2{
 }
 
 .buttons{
-    margin-left: 20px;
     height: 47px;
     width: 361px;
     margin-top: 40px;
@@ -143,7 +173,7 @@ h2{
     background: #ffffff;
     line-height: 47px;
     text-align: center;
-    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
     color: black;
     border-radius: 3px;
@@ -157,7 +187,7 @@ h2{
     background: #ff9900;
     line-height: 47px;
     text-align: center;
-    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     border-radius: 3px;
@@ -166,58 +196,87 @@ h2{
 .content h1{
     
     text-align: center;
-    color: black;
-    font-size: 30px;
+    color: #444444;
+    font-size: 36px;
     margin-top: 64px;
     line-height: 30px;
     font-weight: bold;
     
 }
 
-.contentlist {
-   margin-top: 75px; 
-}
 
-.contentlist li{
+
+
+.contentList{
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
     float: left;
 }
-.contentlist li a{
+
+.contentList li{
+    float: left;
+    width: 140px;
+    margin: 0px 34px;
+}
+
+a.makeCircle{
+    
     display: block;
-   
     width: 140px;
     height: 140px;
-    margin-left: 75px;
     border-radius: 70px;
     background-color: #efefef;
-    text-decoration: none;
+    
+}
+
+.computerImage{
+    background: url('../images/pc.png') center center no-repeat;
    
 }
 
-
-.contentlist a img{
-    padding: 48px 42px;
+.homeImage{
+    background: url('../images/home.png') center center no-repeat;
 }
 
-.displaytext {
-    float: left;
-    line-height: 19px;
-    font-size: 17px;
-    margin-top: 25px;
+.cardImage{
+    background: url('../images/card2.png') center center no-repeat;
+}
+
+.diaryImage{
+    background: url('../images/diary.png') center center no-repeat;
+}
+
+.displayText {
+    margin-top: 22px;
     text-align: center;
-    color: #888888;
+    font-size: 16px;
+    line-height: 19px;
 }
 
-.cleartext{
-    clear:both;
+.displayText a{
+    color: #888888;
+    
 }
+
+.contentClearList{
+    float:none;
+    clear: both;
+    margin: 0px;
+    width: 0px;
+}
+
 .footer{
     background-color: #ececec;
     margin-top: 115px;
-    height: 160px;
+}
+
+.footerTop{
+    padding-top:30px;
+    padding-bottom: 23px;
 }
 
 .footerTopLeft {
-    padding-top: 30px;
     float: left;
 }
 .footerTopLeft li{
@@ -229,7 +288,6 @@ h2{
 
 
 .footerTopLeft li a{
-    text-decoration: none;
     font-size: 16px;
     color: #ff8000;
     font-weight: bold;
@@ -240,7 +298,6 @@ h2{
 }
 
 .footerTopRight{
-    padding-top: 20px;
     float:right;
 }
 .footerTopRight li{
@@ -249,25 +306,31 @@ h2{
     
 }
 
+
+
 .footerBottom{
-    width:570px;
-    margin-top: 20px;
-    float: left;
+    padding-bottom: 85px;
     font-size: 14px;
     color: #aaaaaa;
     font-weight: bold;
 }
 
+.rights{
+    
+    float: left;
+    margin-right: 60px;
+}
 .footLeft{
-    float: right;
+    float: left;
 }
 
 .footLeft li{
-    display: inline;
+    float:left;
+    
 }
 
 .footLeft li a{
     font-size: 14px;
     color: #aaaaaa;
-    text-decoration: none;
+    padding: 0px 5px;
 }
