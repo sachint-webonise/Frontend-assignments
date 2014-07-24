@@ -60,69 +60,67 @@ table {
     
 }
 
+.clear{
+    clear: both;
+}
+
 .menuNavigator{
-    height: 50px;
     background-color: #444444;
 }
 
 .logo{
     float:left;
-    margin-right: 54px;
 }
 
 .logoPicture{
-    padding: 9px 0px;
+    margin: 10px 55px 10px 0px;
 }
 
-.menu{
+ul .menulist{
     float: left;
+    
 }
 
-.menu li{
-    display: inline;
-    padding: 0px 25px 0px 25px;
-     
-}
-
-ul{
-    padding: 19px 0px 19px 0px;
-}
-
-ul a{
+ .menulist a{
+    
+    float: left;
+    display: block;
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
+    padding: 19px 26px 19px 26px;
+    border-right: 1px solid #333333;
 }
 
+.leftborder{
+    border-left: 1px solid #333333;
+}
 
 .mainBanner{
     height: 486px;
-    background: url(/home/webonise/8/assignment-4/images/blue_gradient.jpg) repeat;
+    background: url('../images/blue_gradient.jpg') repeat;
+   
 }
 
 .mainBannerLeft{
-    width: 467px;
+    width: 500px;
     float:left;
 }
 
-.textcontent{
-    padding-top: 238px;
-    padding-left: 19px ;
+h1{
+    font-size: 48px;
+    font-family: Arial;
+    color: white;
+    margin-top:186px;
+    margin-left:15px;
 }
 
-.mainText{
-    font-size: 33px;
-    font-weight: bold;
-    color: white;
+h2{
+    font-size: 34px;
     font-family: Arial;
-}
+    font-weight:lighter;
+    color: white;
+    margin-left: 15px;
 
-.subText{
-    font-size: 27px;
-    font-weight: normal;
-    color: white;
-    font-family: Arial;
 }
 
 .mainBannerRight{
@@ -130,23 +128,146 @@ ul a{
     padding-top: 50px;
 }
 
+.buttons{
+    margin-left: 20px;
+    height: 47px;
+    width: 361px;
+    margin-top: 40px;
+}
+
 .buttons .viewButton {
     display: block;
+    float: left;
     height: 47px;
     width: 170px;
     background: #ffffff;
+    line-height: 47px;
     text-align: center;
     text-decoration: none;
+    font-weight: bold;
     color: black;
+    border-radius: 3px;
 }
 
 .buttons .joinButton {
     display: block;
+    float: right;
     height: 47px;
     width: 170px;
     background: #ff9900;
+    line-height: 47px;
     text-align: center;
     text-decoration: none;
+    font-weight: bold;
     color: white;
+    border-radius: 3px;
 }
 
+.content h1{
+    
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 64px;
+    line-height: 30px;
+    font-weight: bold;
+    
+}
+
+.contentlist {
+   margin-top: 75px; 
+}
+
+.contentlist li{
+    float: left;
+}
+.contentlist li a{
+    display: block;
+   
+    width: 140px;
+    height: 140px;
+    margin-left: 75px;
+    border-radius: 70px;
+    background-color: #efefef;
+    text-decoration: none;
+   
+}
+
+
+.contentlist a img{
+    padding: 48px 42px;
+}
+
+.displaytext {
+    float: left;
+    line-height: 19px;
+    font-size: 17px;
+    margin-top: 25px;
+    text-align: center;
+    color: #888888;
+}
+
+.cleartext{
+    clear:both;
+}
+.footer{
+    background-color: #ececec;
+    margin-top: 115px;
+    height: 160px;
+}
+
+.footerTopLeft {
+    padding-top: 30px;
+    float: left;
+}
+.footerTopLeft li{
+    display: inline; 
+    padding-right: 16px;
+    
+}
+
+
+
+.footerTopLeft li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ff8000;
+    font-weight: bold;
+    
+}
+.footerTop li a:hover{
+    color: #444444;
+}
+
+.footerTopRight{
+    padding-top: 20px;
+    float:right;
+}
+.footerTopRight li{
+    display: inline; 
+    padding-right: 5px;
+    
+}
+
+.footerBottom{
+    width:570px;
+    margin-top: 20px;
+    float: left;
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+.footLeft{
+    float: right;
+}
+
+.footLeft li{
+    display: inline;
+}
+
+.footLeft li a{
+    font-size: 14px;
+    color: #aaaaaa;
+    text-decoration: none;
+}
