@@ -236,4 +236,29 @@ a{
     height: 138px;
     background-color: white;
     margin-right: 20px;
+    margin-bottom: 52px;
+}
+
+.contentList li.lastList{
+    margin-right: 0px;
+}
+
+.contentList li h1{
+    
+    padding-top: 35px;
+    text-align: center;
+    font-family: Arial;
+    color: #444444;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.contentList li p{
+    padding-top: 16px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    text-align: center;
+    
 }
