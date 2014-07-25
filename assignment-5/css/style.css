@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+    line-height: 1;
+    
+}
+    
+ol, ul {
+    list-style: none;
+    
+}
+    
+blockquote, q {
+    quotes: none;
+    
+}
+    
+blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    
+}
+    
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'ubuntu';
+    src:url('../fonts/Ubuntu-L.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: 'Source Sans Pro','Arial','Helvetica', 'sans-serif';
+	font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.menuNavigator{
+    background-color: #ffffff;
+}
+
+.logoPicture{
+    float:left;
+    margin: 14px 0px;
+}
+
+
+.loginButton{
+    display: block;
+    float: right;
+    height: 26px;
+    width: 62px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff8a00;
+    border-radius: 3px;
+    border: 2px solid #ff8a00;
+    margin: 10px 0px;
+}
+
+.menuList{
+   float: right; 
+}
+
+.menuList li a{
+    color: #666666;
+    font-size: 16px;
+    font-family: open_sansregular;
+    font-weight: 800;
+    margin-right: 35px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menuList li a:hover{
+    color: #000000;
+}
+
+.menuList li{
+    float: left;
+}
+
+.banner{
+    height: 610px;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 610px;
+    
+}
+/*
+.bannerPicture{
+    
+    height: 610px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+*/
+
+.bannerText{
+    float:right;
+    width: 383px;
+    margin-top: 50px;
+    
+}
+
+.bannerText h1{
+    
+    font-family: 'open_sanslight'; 
+    font-size: 40px;
+    line-height: 54px;
+    
+}
+
+.getstartButton {
+    display: block;
+    float: left;
+    height: 55px;
+    width: 220px;
+    background: #ff8a00;
+    line-height: 55px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    margin-top: 34px;
+}
+
+.content{
+    background-color: #f0f0f0;
+}
+
+.content h1{
+    
+    font-family: 'ubuntu';
+    text-align: center;
+    color: #222222;
+    font-size: 36px;
+    padding-top: 81px;
+    line-height: 40px;
+    
+}
+
+
+.contentList{
+    margin-top: 62px;
+    float: left;
+}
+
+.contentList li{
+    float: left;
+    width: 218px;
+    height: 138px;
+    background-color: white;
+    margin-right: 20px;
+}
