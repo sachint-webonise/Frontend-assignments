@@ -2,7 +2,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -64,17 +64,19 @@ table {
 
 }
 
-@font-face 
-{
-        font-family: "Source Sans Pro";
-        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
-        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
-        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
-        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
 @font-face {
     font-family: 'open_sanslight';
     src: url('../fonts/opensans-light-webfont.eot');
@@ -87,17 +89,57 @@ table {
 
 }
 
-@font-face{
-    font-family: 'ubuntu';
-    src:url('../fonts/Ubuntu-L.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+
+@font-face {
+        font-family: "ubuntu light";
+        src: url('../fonts/738128663-Ubuntu-L.eot');
+        src: url('738128663-Ubuntu-L.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/738128663-Ubuntu-L.svg#Ubuntu') format('svg'),
+        url('../fonts/738128663-Ubuntu-L.woff') format('woff'),
+        url('../fonts/738128663-Ubuntu-L.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
 }
 
+
+
+
+@font-face {
+    font-family: 'TitilliumWebRegular';
+    src: url('../fonts/titilliumweb-regular.eot');
+    src: url('../fonts/titilliumweb-regular.eot') format('embedded-opentype'),
+         url('../fonts/titilliumweb-regular.woff') format('woff'),
+         url('../fonts/titilliumweb-regular.ttf') format('truetype'),
+         url('../fonts/titilliumweb-regular.svg#TitilliumWebRegular') format('svg');
+}
+
+
+
+
+@font-face {
+    font-family: 'TitilliumWebBold';
+    src: url('../fonts/titilliumweb-bold.eot');
+    src: url('../fonts/titilliumweb-bold.eot') format('embedded-opentype'),
+         url('../fonts/titilliumweb-bold.woff') format('woff'),
+         url('../fonts/titilliumweb-bold.ttf') format('truetype'),
+         url('../fonts/titilliumweb-bold.svg#TitilliumWebBold') format('svg');
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body
 {
-	font-family: 'Source Sans Pro','Arial','Helvetica', 'sans-serif';
-	font-size: 18px;
+    font-family: 'Arial','Helvetica', 'sans-serif';
+    font-size: 18px;
 }
 
 a{
@@ -114,13 +156,24 @@ a{
     clear: both;
 }
 
+.clearLeft{
+    clear: left;
+}
+
+.clearRight{
+    clear: right;
+}
+
 .menuNavigator{
     background-color: #ffffff;
 }
 
 .logoPicture{
-    float:left;
+    float: left;
+    width: 60px;
+    height: 22px;
     margin: 14px 0px;
+    background: url('../images/lmslogo.png') center center no-repeat;
 }
 
 
@@ -128,9 +181,10 @@ a{
     display: block;
     float: right;
     height: 26px;
-    width: 62px;
+    padding: 0px 10px;
     line-height: 26px;
     text-align: center;
+    font-family: 'open_sanssemibold';
     font-size: 14px;
     font-weight: bold;
     color: #ff8a00;
@@ -141,15 +195,19 @@ a{
 
 .menuList{
    float: right; 
+   margin: 5px 0px
+}
+
+.menuList li{
+    float: left;
+    margin-right: 35px;
 }
 
 .menuList li a{
     color: #666666;
     font-size: 16px;
-    font-family: open_sansregular;
-    font-weight: 800;
-    margin-right: 35px;
-    line-height: 50px;
+    font-family: 'open_sanssemibold';
+    line-height: 40px;
     text-align: center;
 }
 
@@ -157,27 +215,20 @@ a{
     color: #000000;
 }
 
-.menuList li{
-    float: left;
+.clearmenuList{
+    float: none;
+    margin-right: 0px;
 }
+
+
 
 .banner{
     height: 610px;
     background-image: url('../images/banner.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 610px;
+    background-size: cover;
     
 }
-/*
-.bannerPicture{
-    
-    height: 610px;
-    background-image: url(../images/banner.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    
-}
-*/
 
 .bannerText{
     float:right;
@@ -195,18 +246,18 @@ a{
 }
 
 .getstartButton {
-    display: block;
-    float: left;
+    display: inline-block;
+    font-family: 'open_sansbold';
+    padding: 0px 25px;
     height: 55px;
-    width: 220px;
     background: #ff8a00;
     line-height: 55px;
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
     color: white;
     border-radius: 3px;
     margin-top: 34px;
+   
 }
 
 .content{
@@ -215,7 +266,7 @@ a{
 
 .content h1{
     
-    font-family: 'ubuntu';
+    font-family: "ubuntu light";
     text-align: center;
     color: #222222;
     font-size: 36px;
@@ -224,23 +275,24 @@ a{
     
 }
 
-
 .contentList{
     margin-top: 62px;
-    float: left;
+    padding-bottom: 20px;
 }
 
 .contentList li{
     float: left;
     width: 218px;
-    height: 138px;
     background-color: white;
     margin-right: 20px;
-    margin-bottom: 52px;
+    margin-bottom: 50px;
+    position: relative;
+    border: 1px solid #e4e4e4;
 }
 
 .contentList li.lastList{
     margin-right: 0px;
+    
 }
 
 .contentList li h1{
@@ -255,10 +307,215 @@ a{
 }
 
 .contentList li p{
-    padding-top: 16px;
+    margin-top: 16px;
     font-size: 11px;
     line-height: 15px;
     color: #888888;
     text-align: center;
+    padding: 0px 14px 15px 14px;
+    text-align: justify;
+    
     
 }
+
+.content li.contentListClear{
+    float: none;
+    clear:both;
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+a.makeCircle{
+    
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #ff8a00;
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    margin-left: -22px;
+    
+}
+
+.courses{
+    background: url('../images/course.png') center center no-repeat;
+   
+}
+
+.assess{
+    background: url('../images/assess.png') center center no-repeat;
+   
+}
+
+.scores{
+    background: url('../images/scores.png') center center no-repeat;
+   
+}
+
+.discussions{
+    background: url('../images/group.png') center center no-repeat;
+   
+}
+
+.reports{
+    background: url('../images/reports.png') center center no-repeat;
+   
+}
+
+.multimedia{
+    background: url('../images/multimedia.png') center center no-repeat;
+   
+}
+
+.tests{
+    background: url('../images/tests.png') center center no-repeat;
+   
+}
+
+.certifications{
+    background: url('../images/certifications.png') center center no-repeat;
+   
+}
+
+.footer{
+    background-color: #555555;
+}
+
+.footerContent
+{
+    display:inline-block;
+    margin: 0px auto 200px;
+    width: 940px;
+}
+
+.footerTop{
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.footerTop h1{
+    float: left;
+    font-family: 'TitilliumWebRegular';
+    font-size: 30px;
+    line-height: 40px; 
+    color: #ffffff;
+    padding: 28px 0px 28px 0px;
+    letter-spacing: -1px;
+}
+
+.footerTop a{
+    float: right;
+    font-family: 'TitilliumWebBold';
+    font-weight: normal;
+    margin: 20px 0px;
+    padding: 0px 35px;
+    word-spacing: -4px;
+}
+
+
+.footerMiddleLeft {
+    float: left;
+    margin-top: 22px;
+}
+.footerMiddleLeft li{
+    float: left; 
+    margin-right: 20px;
+    
+}
+
+.footerMiddleLeftListClear{
+    float: none;
+    margin-right: 0px;
+}
+
+.footerMiddleRight a.socialCircle{
+    
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #777777;
+    
+}
+.footerMiddleLeft li a{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'TitilliumWebBold';
+    color: #ffffff;
+    
+}
+
+.facebook{
+    background: url('../images/fb2.png') center center no-repeat;
+   
+}
+
+.twitter{
+    background: url('../images/twitter2.png') center center no-repeat;
+   
+}
+
+.p{
+    background: url('../images/p2.png') center center no-repeat;
+   
+}
+
+.google{
+    background: url('../images/google2.png') center center no-repeat;
+   
+}
+
+.footerMiddleLeft li a:hover{
+    color: #222222;
+}
+
+
+
+.footerMiddleRight{
+    float:right;
+    margin-top: 33px; 
+}
+.footerMiddleRight li{
+    float: left; 
+    margin-right: 7px;
+    
+}
+
+.footerMiddleRightListClear{
+    float: none;
+    margin-right: 0px;
+}
+
+.footerContent span{
+    float: left;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'TitilliumWebRegular';
+    color: #2a2a2a;
+    margin-right: 21px;
+    margin-top: 3px;
+}
+
+.footLeft{
+    float: left;
+    
+}
+
+
+.footLeft li{
+    display:inline;
+    margin-right: 21px;
+    
+}
+
+.footLeft li a{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'TitilliumWebRegular';
+    color: #ffffff;
+}
+
