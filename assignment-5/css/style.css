@@ -52,17 +52,6 @@ table {
     
 }
 
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('../fonts/opensans-regular-webfont.eot');
-    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-regular-webfont.woff') format('woff'),
-         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
-         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 @font-face {
     font-family: 'open_sanssemibold';
@@ -232,7 +221,7 @@ a{
 
 .bannerText{
     float:right;
-    width: 383px;
+    width: 385px;
     margin-top: 50px;
     
 }
@@ -242,6 +231,7 @@ a{
     font-family: 'open_sanslight'; 
     font-size: 40px;
     line-height: 54px;
+    letter-spacing: -1px;
     
 }
 
@@ -257,37 +247,45 @@ a{
     color: white;
     border-radius: 3px;
     margin-top: 34px;
+    letter-spacing: -1px;
    
 }
 
 .content{
     background-color: #f0f0f0;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    
 }
 
-.content h1{
+.content h2{
     
     font-family: "ubuntu light";
     text-align: center;
     color: #222222;
     font-size: 36px;
-    padding-top: 81px;
     line-height: 40px;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    
     
 }
 
 .contentList{
-    margin-top: 62px;
-    padding-bottom: 20px;
+    margin-top: 54px;
+    
 }
 
 .contentList li{
     float: left;
-    width: 218px;
+    width: 190px;
     background-color: white;
     margin-right: 20px;
     margin-bottom: 50px;
     position: relative;
+    border-radius: 1px;
     border: 1px solid #e4e4e4;
+    padding: 35px 14px 15px 14px;
 }
 
 .contentList li.lastList{
@@ -295,9 +293,8 @@ a{
     
 }
 
-.contentList li h1{
+.contentList li h5{
     
-    padding-top: 35px;
     text-align: center;
     font-family: Arial;
     color: #444444;
@@ -311,8 +308,6 @@ a{
     font-size: 11px;
     line-height: 15px;
     color: #888888;
-    text-align: center;
-    padding: 0px 14px 15px 14px;
     text-align: justify;
     
     
@@ -324,8 +319,8 @@ a{
     width: 0px;
     height: 0px;
     background-color: transparent;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 a.makeCircle{
@@ -397,23 +392,23 @@ a.makeCircle{
     border-bottom: 1px solid #4c4c4c;
 }
 
-.footerTop h1{
+.footerTop h3{
     float: left;
     font-family: 'TitilliumWebRegular';
     font-size: 30px;
     line-height: 40px; 
     color: #ffffff;
-    padding: 28px 0px 28px 0px;
+    margin: 28px 0px 28px 0px;
     letter-spacing: -1px;
 }
 
 .footerTop a{
     float: right;
     font-family: 'TitilliumWebBold';
-    font-weight: normal;
     margin: 20px 0px;
     padding: 0px 35px;
     word-spacing: -4px;
+    letter-spacing: 0px;
 }
 
 
