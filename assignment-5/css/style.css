@@ -239,7 +239,6 @@ a{
     display: inline-block;
     font-family: 'open_sansbold';
     padding: 0px 25px;
-    height: 55px;
     background: #ff8a00;
     line-height: 55px;
     text-align: center;
@@ -380,17 +379,13 @@ a.makeCircle{
 
 .footer{
     background-color: #555555;
-}
-
-.footerContent
-{
-    display:inline-block;
-    margin: 0px auto 200px;
-    width: 940px;
+    padding-bottom: 200px;
+    padding-top: 20px;
 }
 
 .footerTop{
     border-bottom: 1px solid #4c4c4c;
+    padding-bottom: 20px;
 }
 
 .footerTop h3{
@@ -399,14 +394,14 @@ a.makeCircle{
     font-size: 30px;
     line-height: 40px; 
     color: #ffffff;
-    margin: 28px 0px 28px 0px;
+    margin: 7px 0px 7px 0px;
     letter-spacing: -1px;
 }
 
 .footerTop a{
     float: right;
     font-family: 'TitilliumWebBold';
-    margin: 20px 0px;
+    margin: 0px;
     padding: 0px 35px;
     word-spacing: -4px;
     letter-spacing: 0px;
@@ -481,12 +476,16 @@ a.makeCircle{
     
 }
 
+.footerMiddleRight li.lastSocial{
+    margin-right: 0px;
+}
+
 .footerMiddleRightListClear{
     float: none;
     margin-right: 0px;
 }
 
-.footerContent span{
+.footer span{
     float: left;
     font-size: 14px;
     line-height: 16px;
@@ -496,19 +495,19 @@ a.makeCircle{
     margin-top: 3px;
 }
 
-.footLeft{
+.foot .footLeft{
     float: left;
     
 }
 
 
-.footLeft li{
+.foot .footLeft li{
     display:inline;
     margin-right: 21px;
     
 }
 
-.footLeft li a{
+.foot .footLeft li a{
     font-size: 14px;
     line-height: 16px;
     font-family: 'TitilliumWebRegular';
