@@ -82,7 +82,7 @@ table {
 @font-face {
         font-family: "ubuntu light";
         src: url('../fonts/738128663-Ubuntu-L.eot');
-        src: url('738128663-Ubuntu-L.eot?#iefix') format('embedded-opentype'),
+        src: url('../fonts/738128663-Ubuntu-L.eot?#iefix') format('embedded-opentype'),
         url('../fonts/738128663-Ubuntu-L.svg#Ubuntu') format('svg'),
         url('../fonts/738128663-Ubuntu-L.woff') format('woff'),
         url('../fonts/738128663-Ubuntu-L.ttf') format('truetype');

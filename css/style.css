@@ -1,0 +1,215 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+    line-height: 1;
+    
+}
+    
+ol, ul {
+    list-style: none;
+    
+}
+    
+blockquote, q {
+    quotes: none;
+    
+}
+    
+blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    
+}
+    
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+.wrapper{
+    
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.menuNavigator{
+    background-color: #444444;
+}
+
+.logo{
+    float:left;
+}
+
+.logoPicture{
+    margin: 10px 55px 10px 0px;
+}
+
+ul .menulist{
+    float: left;
+    
+}
+
+ .menulist a{
+    
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 19px 26px 19px 26px;
+    border-right: 1px solid #333333;
+}
+
+.leftborder{
+    border-left: 1px solid #333333;
+}
+
+.mainBanner{
+    height: 486px;
+    background: url(/home/webonise/8/assignment-4/images/blue_gradient.jpg) repeat;
+}
+
+.mainBannerLeft{
+    width: 500px;
+    float:left;
+}
+
+h1{
+    font-size: 48px;
+    font-family: Arial;
+    color: white;
+    margin-top:186px;
+    margin-left:15px;
+}
+
+h2{
+    font-size: 34px;
+    font-family: Arial;
+    font-weight:lighter;
+    color: white;
+    margin-left: 15px;
+
+}
+/*
+.textcontent{
+    padding-top: 238px;
+    padding-left: 19px ;
+}
+
+.mainText{
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+.subText{
+    font-size: 27px;
+    font-weight: normal;
+    color: white;
+    font-family: Arial;
+}
+*/
+.mainBannerRight{
+    float: right;
+    padding-top: 50px;
+}
+
+.buttons{
+    margin-left: 20px;
+    height: 47px;
+    width: 361px;
+    margin-top: 40px;
+}
+
+.buttons .viewButton {
+    display: block;
+    float: left;
+    height: 47px;
+    width: 170px;
+    background: #ffffff;
+    line-height: 47px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 3px;
+}
+
+.buttons .joinButton {
+    display: block;
+    float: right;
+    height: 47px;
+    width: 170px;
+    background: #ff9900;
+    line-height: 47px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
+
+.content h1{
+    
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 64px;
+    line-height: 30px;
+    font-weight: bold;
+    
+}
+
+.contentlist {
+   margin-top: 75px; 
+}
+
+.contentlist li{
+    float: left;
+}
+.contentlist li a{
+    float:left;
+    width: 140px;
+    height: 140px;
+    margin-left: 75px;
+    border-radius: 70px;
+    background-color: #efefef;
+}
+
+
+
+.contentlist a img{
+    padding: 48px 42px;
+}
