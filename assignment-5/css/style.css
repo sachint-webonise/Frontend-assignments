@@ -308,7 +308,8 @@ a{
     font-size: 11px;
     line-height: 15px;
     color: #888888;
-    text-align: justify;
+    text-align: left;
+    word-break: break-all;
     
     
 }
