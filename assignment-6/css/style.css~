@@ -156,7 +156,7 @@ a{
 
 .headerRight{
     float: right;
-    margin-top: 16px;
+    margin: 16px 0px 15px 0px;
 }
 
 .headerRight a.socialCircle{
@@ -206,7 +206,7 @@ a{
 
 .menuList{
    float: right; 
-   margin: 19px 16px 0px 0px;
+   margin: 19px 16px 19px 0px;
 }
 
 .menuList li{
@@ -228,14 +228,14 @@ a{
 
 .banner{
     height: 545px;
-    background: url('../images/ramojibanner.jpg') center center no-repeat;
-    background-color: #bad3eb;
+    background-image: url('../images/ramojibanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
 }
 
 .bannerText{
-    float: right;
-    width: 348px;
-    margin-top: 80px
+    margin-left: 592px;
 }
 
 .bannerText h1{
@@ -245,9 +245,8 @@ a{
     word-spacing: 5px;
 }
 
-.bannerText span{
+.bannerText h4{
     
-    display: block;
     font-family: 'MinionProMedium'; 
     font-size: 22px;
     line-height: 20px;
@@ -265,13 +264,12 @@ a{
 .activityList li{
     float: left;
     margin-right: 20px;
-    width: 216px;
+}
+.activityList li a{
+    display: inline-block;
+    width: 184px;
     border: 2px solid #ffffff;
     border-radius: 3px;
-}
-
-.activityList li a{
-    display: block;
     font-family: 'oxygenregular';
     font-size: 22px;
     color: white;
@@ -299,9 +297,6 @@ a{
     float: none;
     margin-right: 0px;
     clear:both;
-    width: 0px;
-    border: 0px;
-    border-radius: 0px;
 }
 
 .activityList li.lastactivity{
@@ -309,7 +304,7 @@ a{
 }
 
 .content{
-    padding: 65px 0px;
+    padding: 40px 0px;
     
 }
 
@@ -321,13 +316,13 @@ a{
 
 .contentList{
     margin-top: 25px;
-    margin-bottom: 30px;
 }
 
 .contentList li{
     float: left;
     width: 300px;
     margin-right: 20px;
+    margin-bottom: 30px;
     background-color: #2e84b3;
 }
 
@@ -336,32 +331,22 @@ a{
     
 }
 
-.contentList li div.imageHold{
-    width: 300px;
-    height: 200px;
-}
 
-.contentList li div.textHold{
-    width: 270px;
-}
-
-.contentList .textHold{
-    padding: 20px 15px;
-    
-}
-
-.contentList li h6{
+.contentList li h4{
     font-family: 'oxygen';
-    font-size: 11px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 15px;
     color: white;
     
 }
 
 .contentList li h3{
     font-family: 'oxygen';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 9px;
+    margin-left: 15px;
     color: white;
 }
 
@@ -370,7 +355,7 @@ a{
 }
 
 .contentList li p{
-    margin-top: 20px;
+    padding: 20px 15px;
     background-color: #2e84b3;
     text-align: left;
     font-family: 'MinionProRegular';
@@ -395,18 +380,20 @@ a{
     padding-bottom: 125px;
 }
 
-.footer .footerDiv{
+.footerList{
+    margin-bottom: 28px;
+}
+.footer .footerList li{
     float: left;
     width: 180px;
     margin-right: 10px;
-    margin-bottom: 24px;
 }
 
-.footer .footerDivLast{
+.footerList li.lastList{
     margin-right: 0px;
 }
 
-.footerDiv h5{
+.footerList li h5{
     margin-left: 4px;
     font-family: 'oxygenbold';
     font-size: 14px;
@@ -414,46 +401,38 @@ a{
     color: #b2b2b2;
 }
 
-.footer .footerDiv ul.footerList{
-    margin-top: 12px;
+.footer li.footerListClear{
+    float: none;
+    clear: both;
+    margin: 0px;
 }
 
-.footer .footerDiv ul.footerList li{
+.footerList ul{
+    margin-top: 15px;
+}
+
+.footerList ul li{
     font-family: 'MinionProRegular';
     font-size: 14px;
     line-height: 20px;
     color:white;
 }
 
-.footer .footerDiv ul.footerList li a{
-    color: #ffffff;
-}
-
-.footer .footerDiv ul.lowerfooterList{
-    margin-top: 25px;
-}
-
-.footer .footerDiv ul.lowerfooterList li{
-    font-family: 'MinionProRegular';
-    font-size: 14px;
-    line-height: 20px;
-    color:white;
+.footerList .lowerfooterList li{
     font-weight: bold;
-    
 }
 
-.footer .footerDiv ul.lowerfooterList li a{
-    color: #ffffff;
+.footerList li a{
+    color: white;
 }
 
 .footer .footerBottom{
     padding-top: 16px;
     border-top: 1px solid #535353;
-    text-align: center;
 }
 
 .footerBottomList{
-    display: inline-block;
+    margin-left: 195px;
 }
 
 .footerBottomList li{
