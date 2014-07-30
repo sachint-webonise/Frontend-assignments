@@ -1,0 +1,466 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+    line-height: 1;
+    
+}
+    
+ol, ul {
+    list-style: none;
+    
+}
+    
+blockquote, q {
+    quotes: none;
+    
+}
+    
+blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    
+}
+    
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+body
+{
+    font-family: 'Arial','Helvetica', 'sans-serif';
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.clearLeft{
+    clear: left;
+}
+
+.clearRight{
+    clear: right;
+}
+
+@font-face {
+    font-family: 'oxygenbold';
+    src: url('../fonts/oxygen-bold-webfont.eot');
+    src: url('../fonts/oxygen-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-bold-webfont.woff') format('woff'),
+         url('../fonts/oxygen-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-bold-webfont.svg#oxygenbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MinionProMedium';
+    src: url('../fonts/minionpro-medium.eot');
+    src: url('../fonts/minionpro-medium.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-medium.woff') format('woff'),
+         url('../fonts/minionpro-medium.ttf') format('truetype'),
+         url('../fonts/minionpro-medium.svg#MinionProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen-regular-webfont.eot');
+    src: url('../fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('../fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oxygen';
+    src: url('../fonts/oxygen-webfont.eot');
+    src: url('../fonts/oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-webfont.woff') format('woff'),
+         url('../fonts/oxygen-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MinionProRegular';
+    src: url('../fonts/minionpro-regular.eot');
+    src: url('../fonts/minionpro-regular.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-regular.woff') format('woff'),
+         url('../fonts/minionpro-regular.ttf') format('truetype'),
+         url('../fonts/minionpro-regular.svg#MinionProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MinionPro';
+    src: url('../fonts/minionpro.eot');
+    src: url('../fonts/minionpro.eot') format('embedded-opentype'),
+         url('../fonts/minionpro.woff') format('woff'),
+         url('../fonts/minionpro.ttf') format('truetype'),
+         url('../fonts/minionpro.svg#MinionProRegular') format('svg');
+}
+
+.menuNavigator{
+    background-color: #ffffff;
+}
+
+.logoPicture{
+    float: left;
+    width: 120px;
+    height: 45px;
+    margin: 5px 0px;
+    background: url('../images/ramojilogo.png') center center no-repeat;
+}
+
+.headerRight{
+    float: right;
+    margin: 16px 0px 15px 0px;
+}
+
+.headerRight a.socialCircle{
+    
+    display: block;
+    width: 25px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #42aae4;
+    
+}
+
+.headerRight li{
+    float: left; 
+    margin-right: 5px;
+    
+}
+
+.headerRight li.lastSocial{
+    margin-right: 0px;
+}
+
+.headerRightListClear{
+    float: none;
+    margin-right: 0px;
+}
+
+.facebook{
+    background: url('../images/facebook.png') center center no-repeat;
+   
+}
+
+.twitter{
+    background: url('../images/twitter.png') center center no-repeat;
+   
+}
+
+.p{
+    background: url('../images/pin.png') center center no-repeat;
+   
+}
+
+.google{
+    background: url('../images/googleplus.png') center center no-repeat;
+   
+}
+
+.menuList{
+   float: right; 
+   margin: 19px 16px 19px 0px;
+}
+
+.menuList li{
+    float: left;
+    margin-right: 26px;
+}
+
+.menuList li a{
+    color: #42aae4;
+    font-size: 14px;
+    font-family: 'oxygenbold';
+}
+
+.clearmenuList{
+    float: none;
+    margin-right: 0px;
+}
+
+
+.banner{
+    height: 545px;
+    background-image: url('../images/ramojibanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.bannerText{
+    margin-left: 592px;
+}
+
+.bannerText h1{
+    font-family: 'oxygenbold'; 
+    font-size: 44px;
+    line-height: 36px;
+    word-spacing: 5px;
+}
+
+.bannerText h4{
+    
+    font-family: 'MinionProMedium'; 
+    font-size: 22px;
+    line-height: 20px;
+    margin-top: 32px;
+    letter-spacing: 0.35px;
+}
+
+.activity{
+    background-color: #2e84b3;
+    padding-top: 19px;
+    padding-bottom: 21px;
+}
+
+
+.activityList li{
+    float: left;
+    margin-right: 20px;
+}
+.activityList li a{
+    display: inline-block;
+    width: 184px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    font-family: 'oxygenregular';
+    font-size: 22px;
+    color: white;
+    line-height: 56px;
+    text-align: left;
+    padding: 0px 13px 0px 19px;
+    background-color: #2e84b3;
+}
+
+.activityList li span{
+    float: right;
+    width: 25px;
+    height: 56px;
+    background-color: #2e84b3;
+    background: url('../images/buttonarrow.png') center center no-repeat;
+}
+
+.activityList li img{
+   
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.activityList li.clearactivityList{
+    float: none;
+    margin-right: 0px;
+    clear:both;
+}
+
+.activityList li.lastactivity{
+    margin-right: 0px;
+}
+
+.content{
+    padding: 40px 0px;
+    
+}
+
+.content h2{
+    font-family: 'oxygenbold';
+    font-size: 40px;
+    color: #42aae4;
+}
+
+.contentList{
+    margin-top: 25px;
+}
+
+.contentList li{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: #2e84b3;
+}
+
+.contentList li.lastList{
+    margin-right: 0px;
+    
+}
+
+
+.contentList li h4{
+    font-family: 'oxygen';
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    
+}
+
+.contentList li h3{
+    font-family: 'oxygen';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-left: 15px;
+    color: white;
+}
+
+.contentList li h3 a{
+    color: white;
+}
+
+.contentList li p{
+    padding: 20px 15px;
+    background-color: #2e84b3;
+    text-align: left;
+    font-family: 'MinionProRegular';
+    font-size: 14px;
+    color: white;
+    
+}
+
+.content li.contentListClear{
+    float: none;
+    clear:both;
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    margin: 0px;
+}
+
+
+.footer{
+    background-color: #444444;
+    padding-top: 30px;
+    padding-bottom: 125px;
+}
+
+.footerList{
+    margin-bottom: 28px;
+}
+.footer .footerList li{
+    float: left;
+    width: 180px;
+    margin-right: 10px;
+}
+
+.footerList li.lastList{
+    margin-right: 0px;
+}
+
+.footerList li h5{
+    margin-left: 4px;
+    font-family: 'oxygenbold';
+    font-size: 14px;
+    line-height: 14px;
+    color: #b2b2b2;
+}
+
+.footer li.footerListClear{
+    float: none;
+    clear: both;
+    margin: 0px;
+}
+
+.footerList ul{
+    margin-top: 15px;
+}
+
+.footerList ul li{
+    font-family: 'MinionProRegular';
+    font-size: 14px;
+    line-height: 20px;
+    color:white;
+}
+
+.footerList .lowerfooterList li{
+    font-weight: bold;
+}
+
+.footerList li a{
+    color: white;
+}
+
+.footer .footerBottom{
+    padding-top: 16px;
+    border-top: 1px solid #535353;
+}
+
+.footerBottomList{
+    margin-left: 195px;
+}
+
+.footerBottomList li{
+    display: inline;
+    font-family: 'oxygenbold';
+    font-size: 12px;
+    color: white;
+    border-left:1px solid white;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.footerBottomList li.firstBottomList{
+    border-left: 0px ;
+    padding-left: 0px;
+    
+}
+
+.footerBottomList a{
+    color: white;
+}
+.footerLast{
+    font-family: 'MinionProRegular';
+    font-size: 14px;
+    line-height: 20px;
+    color: #aaaaaa;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
