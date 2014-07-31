@@ -1,0 +1,418 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+    line-height: 1;
+    
+}
+    
+ol, ul {
+    list-style: none;
+    
+}
+    
+blockquote, q {
+    quotes: none;
+    
+}
+    
+blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    
+}
+    
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+body
+{
+    font-family: 'Arial','Helvetica', 'sans-serif';
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'GeorgiaBoldItalic';
+    src: url('../fonts/georgiabolditalic.eot');
+    src: url('../fonts/georgiabolditalic.eot') format('embedded-opentype'),
+         url('../fonts/georgiabolditalic.woff') format('woff'),
+         url('../fonts/georgiabolditalic.ttf') format('truetype'),
+         url('../fonts/georgiabolditalic.svg#GeorgiaBoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'GeorgiaItalic';
+    src: url('../fonts/georgiaitalic.eot');
+    src: url('../fonts/georgiaitalic.eot') format('embedded-opentype'),
+         url('../fonts/georgiaitalic.woff') format('woff'),
+         url('../fonts/georgiaitalic.ttf') format('truetype'),
+         url('../fonts/georgiaitalic.svg#GeorgiaItalic') format('svg');
+}
+
+.container{
+    
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.clearLeft{
+    clear: left;
+}
+
+.clearRight{
+    clear: right;
+}
+
+.menuNavigator{
+    background-color: #ffffff;
+}
+
+.logoPicture{
+    float: left;
+    width: 165px;
+    height: 50px;
+    margin: 10px 46px 15px 0px;
+    background: url('../images/logo247.png') center center no-repeat;
+}
+
+
+.menuList{
+    float: left;
+    margin-top: 26px;
+}
+
+.menuList li{
+    float: left;
+    margin-right: 33px;
+}
+
+.menuList li a{
+    color: #0077cc;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.menuList li a:hover{
+    color: #000000;
+}
+
+.clearmenuList{
+    float: none;
+    margin-right: 0px;
+}
+
+.socialList{
+    float: right;
+    margin-top: 29px;
+}
+
+.socialList li{
+    float: right;
+    margin-right: 5px;
+}
+
+.socialList li a{
+    width: 16px;
+    height: 16px;
+    display: block;
+    
+}
+
+.socialList li.lastsocial{
+    margin-right: 0px;
+}
+
+.socialList li a.twitter{
+    background: url('../images/twitter.png') center center no-repeat;
+}
+
+.socialList li a.facebook{
+    background: url('../images/facebook.png') center center no-repeat;
+}
+
+.clearsocialList{
+    background: none;
+    margin-right: 0px;
+    display: none;
+}
+
+.dashList{
+    float: right;
+    margin-top: 29px;
+    margin-right: 20px;
+}
+
+.dashList li{
+    float: left;
+    margin-right: 15px;
+}
+
+.dashList li div{
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+}
+
+.dashList li div.contact{
+    background: url('../images/phone.png') center center no-repeat;
+}
+
+.dashList li div.login{
+    background: url('../images/login.png') center center no-repeat;
+}
+
+.dashList li a{
+    font-size: 12px;
+    line-height: 16px;
+    color: #0077cc;
+    font-weight: 700;
+}
+
+.dashList li.lastSocialList{
+    float: none;
+    margin: 0px;
+    clear: both;
+}
+
+.dashList li.lastDash{
+    margin-right: 0px;
+}
+
+.banner{
+    height: 310px;
+    background: url('../images/bannerback.jpg') center center no-repeat;
+    background-color: #0064a4;
+}
+
+.banner .bannerimage{
+    float: left;
+    width: 462px;
+    height: 244px;
+    background: url('../images/bannerimage2.png') center center no-repeat;
+    margin-top: 38px;
+    
+ }
+ 
+ .banner .bannerRight{
+     float: right;
+     margin-top: 72px;
+     width: 400px;
+     padding-left: 78px;
+ }
+ 
+ .banner .bannerRight h1{
+     font-family: 'GeorgiaBoldItalic';
+     font-size: 28px;
+     line-height: 40px;
+     color: #ffffff;
+ }
+ 
+ .banner .bannerRight .findBox{
+     margin-top: 74px;
+ }
+ 
+ .bannerRight input.searchBox{
+     width: 254px;
+     height: 36px;
+     background: url('../images/searchgradient.png') repeat-x;
+     border-radius: 3px;
+     border: 1px solid #c5c5c5;
+     font-size: 16px;
+     line-height: 36px;
+     color: #b4b4b4;
+     padding-left: 14px;
+     margin-right: 5px;
+ }
+ 
+ .banner a.findDoctor{
+     display: inline-block;
+     padding: 0px 13px;
+     background: url('../images/buttongradient.png') repeat-x;
+     line-height: 38px;
+     text-align: center;
+     font-size: 16px;
+     color: #ffffff;
+     border-radius: 3px;
+     border: 1px solid #ff6000;
+ }
+ 
+ .content{
+     padding-bottom: 37px;
+ }
+ 
+ .content .containLeft{
+     float: left;
+     width: 270px;
+     margin-right: 10px;
+     margin-top: 17px;
+     padding-top: 25px;
+     background: url('../images/upperquote.png') no-repeat;
+ }
+ 
+ .content .subcontainLeft{
+     background: url('../images/lowerquote.png') bottom right no-repeat;
+ }
+ .containLeft .subcontainLeft h4{
+     font-size: 12px;
+     font-weight: bold;
+     line-height: 16px;
+     color: #0077cc;
+     
+ }
+ 
+ .containLeft .subcontainLeft p{
+     font-size: 12px;
+     line-height: 16px;
+     color: #666666;
+     
+ }
+ 
+ .containLeft span{
+     display:block;
+     text-align: right;
+     font-size: 12px;
+     line-height: 20px;
+     color: #444444;
+ }
+ 
+ .content .containCenter{
+     float: left;
+     width: 270px;
+     margin-right: 10px;
+     margin-top: 25px;
+ }
+ 
+ .content .containCenter h4{
+     font-size: 12px;
+     line-height: 18px;
+     font-weight: bold;
+ }
+ 
+ 
+ .content .containCenter p{
+     margin-top: 13px;
+     font-size: 12px;
+     line-height: 16px;
+     color: #444444;
+ }
+ 
+ 
+ .containCenter span{
+     display:block;
+     text-align: right;
+     font-size: 12px;
+     font-weight: bold;
+     line-height: 16px;
+     color: #0077cc;
+ }
+ 
+ .content .containRight{
+     float: left;
+     width: 380px;
+     margin-top: 30px;
+ }
+ 
+ .content .containRight p{
+     font-size: 16px;
+     line-height: 24px;
+     font-family: 'GeorgiaItalic';
+     color: #0076d1;
+ }
+ 
+ 
+ .content .containRight a{
+     float: right;
+     display: inline-block;
+     padding: 0px 32px;
+     background: url('../images/signupgradient.png') repeat-x;
+     line-height: 43px;
+     text-align: center;
+     font-size: 22px;
+     color: #ffffff;
+     border-radius: 3px;
+     border: 1px solid #ff6000;
+ }
+ 
+ .footer{
+     padding-top: 15px;
+     padding-bottom: 190px;
+ }
+ 
+ .footer .footerDiv{
+    float: left;
+    width: 130px;
+    margin-right: 25px;
+    
+}
+
+.footer .footerDivLast{
+    margin-right: 0px;
+}
+
+.footerDiv h5{
+    
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.footer .footerDiv ul.footerList{
+    margin-top: 5px;
+}
+
+.footer .footerDiv ul.footerList li{
+    font-size: 12px;
+    line-height: 29px;
+    border-bottom: 1px dashed #d4d8d9;
+  
+}
+
+.footer .footerDiv ul.footerList li a{
+    color: #0077cc;
+}
+
+.footer span{
+    display: block;
+    float: right;
+    font-size: 13px;
+    line-height: 18px;
+}
