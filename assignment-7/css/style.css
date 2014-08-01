@@ -182,8 +182,7 @@ a{
 
 .dashList{
     float: right;
-    margin-top: 29px;
-    margin-right: 20px;
+    margin: 29px 20px 0px 0px;
 }
 
 .dashList li{
@@ -405,8 +404,7 @@ a{
  .footer{
      background-color: #f9feff;
      border-top: 1px solid #e2e2e2;
-     padding-top: 15px;
-     padding-bottom: 190px;
+     padding:15px 0px 190px 0px;
  }
  
  .footer .footerDiv{
