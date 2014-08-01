@@ -100,7 +100,7 @@ a{
 }
 
 .menuNavigator{
-    background-color: #ffffff;
+    background: url('../images/headergradient.png') repeat-x;
 }
 
 .logoPicture{
@@ -148,7 +148,7 @@ a{
 }
 
 .socialList li{
-    float: right;
+    float: left;;
     margin-right: 5px;
 }
 
@@ -163,12 +163,12 @@ a{
     margin-right: 0px;
 }
 
-.socialList li a.twitter{
-    background: url('../images/twitter.png') center center no-repeat;
-}
-
 .socialList li a.facebook{
     background: url('../images/facebook.png') center center no-repeat;
+}
+
+.socialList li a.twitter{
+    background: url('../images/twitter.png') center center no-repeat;
 }
 
 .clearsocialList{
@@ -195,12 +195,14 @@ a{
     display: inline-block;
 }
 
-.dashList li div.contact{
-    background: url('../images/phone.png') center center no-repeat;
+.dashList li a.contact{
+    background: url('../images/phone.png') left no-repeat;
+    
 }
 
-.dashList li div.login{
-    background: url('../images/login.png') center center no-repeat;
+.dashList li a.login{
+    background: url('../images/login.png') left no-repeat;
+  
 }
 
 .dashList li a{
@@ -208,6 +210,8 @@ a{
     line-height: 16px;
     color: #0077cc;
     font-weight: 700;
+    display: block;
+    padding-left: 22px;
 }
 
 .dashList li.lastSocialList{
@@ -222,8 +226,7 @@ a{
 
 .banner{
     height: 310px;
-    background: url('../images/bannerback.jpg') center center no-repeat;
-    background-color: #0064a4;
+    background: url('../images/bannergradient.png') repeat-x;
 }
 
 .banner .bannerimage{
@@ -237,9 +240,9 @@ a{
  
  .banner .bannerRight{
      float: right;
-     margin-top: 72px;
-     width: 400px;
-     padding-left: 78px;
+     width: 478px;
+     height: 310px;
+     background: url('../images/leaves.png') center center no-repeat;
  }
  
  .banner .bannerRight h1{
@@ -247,14 +250,15 @@ a{
      font-size: 28px;
      line-height: 40px;
      color: #ffffff;
+     margin: 72px 0px 0px 78px;
  }
  
  .banner .bannerRight .findBox{
-     margin-top: 74px;
+     margin: 74px 0px 0px 78px;
  }
  
  .bannerRight input.searchBox{
-     width: 254px;
+     width: 265px;
      height: 36px;
      background: url('../images/searchgradient.png') repeat-x;
      border-radius: 3px;
@@ -263,12 +267,13 @@ a{
      line-height: 36px;
      color: #b4b4b4;
      padding-left: 14px;
-     margin-right: 5px;
+     float: left;
  }
  
- .banner a.findDoctor{
-     display: inline-block;
-     padding: 0px 13px;
+ .banner input[type="submit"].findDoctor{
+     float: right;
+     width: 113px;
+     height: 38px;
      background: url('../images/buttongradient.png') repeat-x;
      line-height: 38px;
      text-align: center;
@@ -280,6 +285,7 @@ a{
  
  .content{
      padding-bottom: 37px;
+     background-color: #f9feff;
  }
  
  .content .containLeft{
@@ -341,15 +347,12 @@ a{
  }
  
  
- .containCenter span{
+ .containCenter a{
      display:block;
      text-align: right;
      font-size: 12px;
      font-weight: bold;
      line-height: 16px;
- }
- 
- .containCenter span a{
      color: #0077cc;
  }
  
@@ -370,7 +373,6 @@ a{
  
  .content .containRight a{
      float: right;
-     display: inline-block;
      padding: 0px 32px;
      background: url('../images/signupgradient.png') repeat-x;
      line-height: 43px;
@@ -383,6 +385,7 @@ a{
  }
  
  .footer{
+     background-color: #f9feff;
      border-top: 1px solid #e2e2e2;
      padding-top: 15px;
      padding-bottom: 190px;
