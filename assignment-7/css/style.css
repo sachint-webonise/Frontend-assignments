@@ -52,6 +52,9 @@ table {
     
 }
 
+input{
+    padding: 0px;
+}
 body
 {
     font-family: 'Arial','Helvetica', 'sans-serif';
@@ -230,7 +233,7 @@ a{
 
 .banner{
     height: 310px;
-    background: url('../images/bannergradient.png') repeat-x;
+    background: #0064a4 url('../images/bannergradient.png') repeat-x;
 }
 
 .banner .bannerimage{
@@ -261,23 +264,22 @@ a{
      margin: 74px 0px 0px 78px;
  }
  
- .bannerRight input.searchBox{
+ .banner .bannerRight .findBox input[type="text"].searchBox{
      width: 265px;
-     height: 36px;
-     background: url('../images/searchgradient.png') repeat-x;
+     height: 38px;
      border-radius: 3px;
      border: 1px solid #c5c5c5;
      font-size: 16px;
-     line-height: 36px;
+     line-height: 18px;
      color: #b4b4b4;
      padding-left: 14px;
      float: left;
  }
  
- .banner input[type="submit"].findDoctor{
+ .banner .bannerRight .findBox input[type="submit"].findDoctor{
      float: right;
      width: 113px;
-     height: 38px;
+     height: 40px;
      background: url('../images/buttongradient.png') repeat-x;
      line-height: 38px;
      text-align: center;
@@ -367,7 +369,7 @@ a{
  
  .content .containRight{
      float: left;
-     width: 380px;
+     width: 398px;
      margin-top: 30px;
  }
  
@@ -412,10 +414,6 @@ a{
     width: 130px;
     margin-right: 40px;
     
-}
-
-.footer .footerDivLast{
-    margin-right: 0px;
 }
 
 .footerDiv h5{
