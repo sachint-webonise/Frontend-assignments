@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'OswaldBook';
+    src: url('oswald-regular.eot');
+    src: url('oswald-regular.eot') format('embedded-opentype'),
+         url('oswald-regular.woff') format('woff'),
+         url('oswald-regular.ttf') format('truetype'),
+         url('oswald-regular.svg#OswaldBook') format('svg');
+}
