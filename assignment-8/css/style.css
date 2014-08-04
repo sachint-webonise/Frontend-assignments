@@ -282,6 +282,14 @@ a{
      
  }
  
+ .firstContent .leftContain .topcontent .slider .sliderback{
+     height: 10px;
+     width: 280px;
+     background-color: #ffffff;
+     border: 1px solid #cccccc;
+     background: url('../images/redsliderleft.png') center left no-repeat;
+ }
+ 
   .firstContent .leftContain .bottomcontent h3{
      font-size: 16px;
      line-height: 24px;
@@ -562,28 +570,28 @@ a{
      
  }
  
- .secondContent .rightContain .bottomcontent ul{
+ .secondContent .rightContain .bottomcontent .rightContainList{
      margin-top: 5px;
  }
  
- .secondContent .rightContain .bottomcontent ul li{
+ .secondContent .rightContain .bottomcontent .rightContainList li{
      border-bottom: 1px solid #eeeeee;
      padding: 13px 0px;
  }
  
- .secondContent .rightContain .bottomcontent ul li h4{
+ .secondContent .rightContain .bottomcontent .rightContainList li h4{
      font-size: 12px;
      line-height: 16px;
      color: #dd0000;
  }
  
- .secondContent .rightContain .bottomcontent ul li p{
+ .secondContent .rightContain .bottomcontent .rightContainList li p{
      font-size: 12px;
      line-height: 16px;
      color: #777777;
  }
  
- .secondContent .rightContain .bottomcontent ul li a{
+ .secondContent .rightContain .bottomcontent .rightContainList li a{
      font-size: 12px;
      line-height: 16px;
      color: #000000;
