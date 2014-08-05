@@ -140,7 +140,7 @@ a{
      font-size: 12px;
      padding: 10px 10px 10px 9px;
      border-right: 1px solid #cccccc;
-     /* background: url('../images/reddownarrow.png') center right no-repeat;*/
+     background: url('../images/reddownarrow.png') center right 3px no-repeat
      
  }
  
@@ -173,10 +173,6 @@ a{
      padding: 10px 0px;
  }
  
- /*
- .navigation ul{
-     margin: 8px 0px;
- }*/
  
  .navList li{
      float: left;
@@ -199,20 +195,7 @@ a{
      border: 1px solid #dd0000;
      background: url('../images/reddownarrow2.png') center right no-repeat;
  }
- /*
- .navList li span{
-     float: right;
-     width: 5px;
-     height: 13px;
-     background: url('../images/reddownarrow2.png') center center no-repeat;
-     
- }
- /*
- .navigation ul li span{
-     float: right;
-     width: 
-     height: 24px;
- }*/
+
  
  .navList li a.home{
      background-color: #000000; 
@@ -307,7 +290,7 @@ a{
  }
  
  .firstContent .leftContain .bottomcontent{
-     background-color: #f5f5f5;
+     background: #f5f5f5 url('../images/findusedcargradient.png') repeat-x;
      padding: 20px 15px 15px 15px;
  }
  
@@ -346,7 +329,6 @@ a{
  .firstContent .rightContain{
      float: left;
      width: 575px;
-     /* margin-top: 20px; */
      
 }
 
@@ -490,14 +472,15 @@ a{
      margin-bottom: 5px;
  }
  
+ .secondContent .leftContain .leftContainList{
+     border-top: 1px solid #dddddd;
+     background: url('../images/secondleftulgradient.png') repeat-x;
+ }
  .secondContent .leftContain .leftContainList li{
-     border-top: 1px solid #eeeeee;
+     border-bottom: 1px solid #eeeeee;
      padding: 13px 0px;
  }
- 
- .secondContent .leftContain .leftContainList li.lastList{
-     border-bottom: 1px solid #eeeeee;
- }
+
  
  .secondContent .leftContain .leftContainList li a{
      font-size: 12px;
@@ -573,6 +556,8 @@ a{
  
  .secondContent .rightContain .bottomcontent .rightContainList{
      margin-top: 5px;
+     border-top: 1px solid #dddddd;
+     background: url('../images/secondleftulgradient.png') repeat-x
  }
  
  .secondContent .rightContain .bottomcontent .rightContainList li{
@@ -630,6 +615,8 @@ a{
  
  .thirdContent .contentList ul{
      margin-top: 5px;
+     border-top: 1px solid #dddddd;
+     background: url('../images/secondleftulgradient.png') repeat-x;
  }
  
  .thirdContent .contentList ul li{
@@ -637,9 +624,6 @@ a{
      padding: 11px 0px;
  }
  
- .thirdContent .contentList ul li.firstList{
-     border-top: 1px solid #eeeeee; 
- }
  
  .thirdContent .contentList ul li a{
      font-size: 12px;
@@ -700,6 +684,7 @@ a{
      width: 615px;
      border-top: 1px solid #cccccc;
      margin-top: 5px;
+     background: url('../images/footerul.png') repeat-x;
  }
  
  .footer .footerListDiv .leftfooterList{
@@ -732,6 +717,7 @@ a{
  .footer .footerRightListDiv .autoguide{
      margin-top: 5px;
      border-top: 1px solid #cccccc;
+     background: url('../images/footerul.png') repeat-x;
  }
  
  .footer .footerRightListDiv .autoguide li{
