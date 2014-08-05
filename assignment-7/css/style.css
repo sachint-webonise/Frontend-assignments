@@ -235,6 +235,10 @@ a{
     background: #0064a4 url('../images/bannergradient.png') repeat-x;
 }
 
+.banner .container{
+    background: url('../images/leaves2.png') center right no-repeat;
+    height: 310px;
+}
 .banner .bannerimage{
     float: left;
     width: 462px;
@@ -246,9 +250,7 @@ a{
  
  .banner .bannerRight{
      float: right;
-     width: 478px;
-     height: 310px;
-     background: url('../images/leaves.png') center center no-repeat;
+     margin: 72px 0px 0px 78px;
  }
  
  .banner .bannerRight h1{
@@ -256,11 +258,10 @@ a{
      font-size: 28px;
      line-height: 40px;
      color: #ffffff;
-     margin: 72px 0px 0px 78px;
  }
  
  .banner .bannerRight .findBox{
-     margin: 74px 0px 0px 78px;
+     margin-top: 74px;
  }
  
  .banner .bannerRight .findBox input[type="text"].searchBox{
@@ -273,6 +274,7 @@ a{
      color: #b4b4b4;
      padding-left: 14px;
      float: left;
+     margin-right: 5px;
  }
  
  .banner .bannerRight .findBox input[type="submit"].findDoctor{
@@ -342,7 +344,7 @@ a{
      margin-top: 25px;
  }
  
- .content .containCenter h4{
+ .content .containCenter span{
      font-size: 12px;
      line-height: 18px;
      font-weight: bold;
@@ -427,8 +429,6 @@ a{
 }
 
 .footer .footerDiv ul.footerList li{
-    font-size: 12px;
-    line-height: 29px;
     border-bottom: 1px dashed #d4d8d9;
   
 }
@@ -438,6 +438,8 @@ a{
   }
 
 .footer .footerDiv ul.footerList li a{
+    font-size: 12px;
+    line-height: 29px;
     color: #0077cc;
 }
 
