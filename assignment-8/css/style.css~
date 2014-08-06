@@ -505,7 +505,6 @@ select{
  .secondContent .rightContain{
      margin-top: 20px;
      float: left;
-     width: 577px;
  }
  
  .secondContent .rightContain .topcontent .topleftcontent{

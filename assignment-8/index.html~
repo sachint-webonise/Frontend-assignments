@@ -91,14 +91,14 @@
                             <input type="submit" value="" class="search">
                             
                         </form>
-                        
+                        <!--
                         <div class="clear"></div>
                         <div class="slider">
                             <span>By Budget  From Rs 2 lac to 8.5lac</span>
                             <div class="sliderback"></div>
                             <input type="submit" value="" class="search">
                         </div>
-                        
+                        -->
                         
                     </div>
                     <div class="bottomcontent">
